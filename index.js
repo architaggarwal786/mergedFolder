@@ -140,7 +140,7 @@ const files = req.files.map((file) => ({
   path: `${serverBaseUrl}/uploads/${file.filename}`,
 }));
 
-    }));
+    // End of files mapping
 
     const predictions = await Promise.all(
       files.map(async (file) => {
