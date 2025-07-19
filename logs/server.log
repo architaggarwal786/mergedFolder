@@ -1,0 +1,768 @@
+[INFO] 2025-07-16T10:17:24.372Z - 🚀 Server running on port 5000
+[INFO] 2025-07-16T10:17:26.146Z - ✅ MongoDB connected
+[INFO] 2025-07-16T10:24:53.743Z - POST /upload-clothes
+[INFO] 2025-07-16T10:28:02.453Z - 🚀 Server running on port 5000
+[INFO] 2025-07-16T10:28:04.186Z - ✅ MongoDB connected
+[INFO] 2025-07-16T10:34:42.149Z - 🚀 Server running on port 5000
+[INFO] 2025-07-16T10:34:44.052Z - ✅ MongoDB connected
+[INFO] 2025-07-16T11:56:28.824Z - 🧾 MongoDB Query:
+[ERROR] 2025-07-16T11:56:28.826Z - Error finding products: TypeError: logger.debug is not a function
+[ERROR] 2025-07-16T11:56:28.826Z - ❌ Recommendation error: TypeError: logger.debug is not a function
+[INFO] 2025-07-16T12:01:32.671Z - 🧾 MongoDB Query:
+[ERROR] 2025-07-16T12:01:32.672Z - Error finding products: TypeError: logger.debug is not a function
+[ERROR] 2025-07-16T12:01:32.673Z - ❌ Recommendation error: TypeError: logger.debug is not a function
+[INFO] 2025-07-16T12:06:13.830Z - 🧾 MongoDB Query:
+[DEBUG] 2025-07-16T12:06:13.833Z - Mapped search parameters:
+[DEBUG] 2025-07-16T12:06:13.833Z - Final MongoDB filter:
+[INFO] 2025-07-16T12:06:14.012Z - ✅ Found 0 product(s)
+[INFO] 2025-07-16T12:07:21.026Z - 🧾 MongoDB Query:
+[DEBUG] 2025-07-16T12:07:21.028Z - Mapped search parameters:
+[DEBUG] 2025-07-16T12:07:21.028Z - Final MongoDB filter:
+[INFO] 2025-07-16T12:07:21.211Z - ✅ Found 0 product(s)
+[INFO] 2025-07-16T15:15:41.489Z - 🧾 MongoDB Query:
+[DEBUG] 2025-07-16T15:15:41.494Z - Mapped search parameters:
+[DEBUG] 2025-07-16T15:15:41.495Z - Final MongoDB filter:
+[INFO] 2025-07-16T15:15:41.892Z - ✅ Found 0 product(s)
+[INFO] 2025-07-17T15:51:53.998Z - 🧾 MongoDB Query:
+[DEBUG] 2025-07-17T15:51:54.001Z - Mapped search parameters:
+[DEBUG] 2025-07-17T15:51:54.002Z - Final MongoDB filter:
+[INFO] 2025-07-17T15:51:54.169Z - ✅ Found 0 product(s)
+[INFO] 2025-07-17T16:02:07.275Z - 🧾 MongoDB Query:
+[DEBUG] 2025-07-17T16:02:07.278Z - Mapped search parameters:
+[DEBUG] 2025-07-17T16:02:07.279Z - Final MongoDB filter:
+[INFO] 2025-07-17T16:02:07.680Z - ✅ Found 0 product(s)
+[INFO] 2025-07-17T16:06:24.710Z - 🧾 MongoDB Query:
+[DEBUG] 2025-07-17T16:06:24.713Z - Mapped search parameters:
+[DEBUG] 2025-07-17T16:06:24.714Z - Final MongoDB filter:
+[INFO] 2025-07-17T16:06:25.320Z - ✅ Found 0 product(s)
+[INFO] 2025-07-17T18:49:12.994Z - 📝 Chat context sent to LLM:
+
+
+[INFO] 2025-07-17T18:49:12.998Z - 📝 Current user message: hi
+[INFO] 2025-07-17T18:49:15.123Z - 🧠 Intent:
+[INFO] 2025-07-17T18:49:26.241Z - 📝 Chat context sent to LLM:
+
+
+[INFO] 2025-07-17T18:49:26.243Z - 📝 Current user message: my fav color is red
+[INFO] 2025-07-17T18:49:28.435Z - 🧠 Intent:
+[INFO] 2025-07-17T18:49:45.227Z - 📝 Chat context sent to LLM:
+
+
+[INFO] 2025-07-17T18:49:45.228Z - 📝 Current user message: give me suggestion for it
+[INFO] 2025-07-17T18:49:47.425Z - 🧠 Intent:
+[INFO] 2025-07-17T18:49:47.426Z - 🔍 Extracted keywords:
+[INFO] 2025-07-17T18:55:06.040Z - 📥 Incoming history:
+[INFO] 2025-07-17T18:55:06.042Z - 📝 Prompt context:
+Assistant: 👗 Hey there! I’m Daily Dresser…
+User: Hi
+User: hi
+[INFO] 2025-07-17T18:55:08.366Z - 🧠 Detected intent:
+[INFO] 2025-07-17T18:55:24.103Z - 📥 Incoming history:
+[INFO] 2025-07-17T18:55:24.104Z - 📝 Prompt context:
+Assistant: 👗 Hey there! I’m Daily Dresser…
+User: Hi
+Assistant: So glad you stopped by!  Are you looking for some style inspiration today, or do you have something specific in mind?  Maybe a new outfit for a special occasion, advice on what to wear with those new boots you just bought, or just want to browse some trendy looks?  Tell me what's on your fashion mind! ✨
+User: My fav color is black
+User: my fav color is black
+[INFO] 2025-07-17T18:55:26.460Z - 🧠 Detected intent:
+[INFO] 2025-07-17T18:56:26.114Z - 📥 Incoming history:
+[INFO] 2025-07-17T18:56:26.115Z - 📝 Prompt context:
+Assistant: 👗 Hey there! I’m Daily Dresser…
+User: Hi
+Assistant: So glad you stopped by!  Are you looking for some style inspiration today, or do you have something specific in mind?  Maybe a new outfit for a special occasion, advice on what to wear with those new boots you just bought, or just want to browse some trendy looks?  Tell me what's on your fashion mind! ✨
+User: My fav color is black
+Assistant: Okay, fabulous!  Black is such a classic and versatile color! 🖤  Do you want to explore some all-black outfits, or are you thinking of using black as a base and adding pops of other colors?  Perhaps you're interested in seeing how to incorporate different textures with black, like leather, lace, or velvet?  Tell me more about what you'd like to see! 😊
+User: Suggest outfit of my fav color
+User: suggest outfit of my fav color
+[INFO] 2025-07-17T18:56:28.308Z - 🧠 Detected intent:
+[INFO] 2025-07-17T19:43:57.429Z - 📥 Incoming history:
+[INFO] 2025-07-17T19:43:57.431Z - 📝 Prompt context:
+Assistant: 👗 Hey there! I’m Daily Dresser…
+User: Hi
+User: hi
+[INFO] 2025-07-17T19:43:59.868Z - 🧠 Detected intent:
+[INFO] 2025-07-17T19:44:07.965Z - 📥 Incoming history:
+[INFO] 2025-07-17T19:44:07.966Z - 📝 Prompt context:
+Assistant: 👗 Hey there! I’m Daily Dresser…
+User: Hi
+Assistant: So, what fashion adventure are we embarking on today? Are you looking for outfit ideas, styling tips, or perhaps hunting for that perfect piece to complete your look?  Tell me everything! ✨
+User: Red dresses
+User: red dresses
+[INFO] 2025-07-17T19:44:10.516Z - 🧠 Detected intent:
+[INFO] 2025-07-17T19:44:10.518Z - 🔍 Keywords extracted:
+[INFO] 2025-07-17T19:44:25.007Z - 📥 Incoming history:
+[INFO] 2025-07-17T19:44:25.009Z - 📝 Prompt context:
+Assistant: 👗 Hey there! I’m Daily Dresser…
+User: Hi
+Assistant: So, what fashion adventure are we embarking on today? Are you looking for outfit ideas, styling tips, or perhaps hunting for that perfect piece to complete your look?  Tell me everything! ✨
+User: Red dresses
+Assistant: ✨ Here are picks matching: red
+User: My favorite color is red
+User: my favorite color is red
+[INFO] 2025-07-17T19:44:27.444Z - 🧠 Detected intent:
+[INFO] 2025-07-17T19:44:27.446Z - 🔍 Keywords extracted:
+[INFO] 2025-07-17T19:44:52.012Z - 📥 Incoming history:
+[INFO] 2025-07-17T19:44:52.013Z - 📝 Prompt context:
+Assistant: 👗 Hey there! I’m Daily Dresser…
+User: Hi
+Assistant: So, what fashion adventure are we embarking on today? Are you looking for outfit ideas, styling tips, or perhaps hunting for that perfect piece to complete your look?  Tell me everything! ✨
+User: Red dresses
+Assistant: ✨ Here are picks matching: red
+User: My favorite color is red
+Assistant: ✨ Here are picks matching: red
+User: Provide accessories with my fav color
+User: provide accessories with my fav color
+[INFO] 2025-07-17T19:44:53.241Z - 🧠 Detected intent:
+[INFO] 2025-07-17T19:44:53.242Z - 🔍 Keywords extracted:
+[INFO] 2025-07-17T19:45:15.299Z - 📥 Incoming history:
+[INFO] 2025-07-17T19:45:15.300Z - 📝 Prompt context:
+Assistant: So, what fashion adventure are we embarking on today? Are you looking for outfit ideas, styling tips, or perhaps hunting for that perfect piece to complete your look?  Tell me everything! ✨
+User: Red dresses
+Assistant: ✨ Here are picks matching: red
+User: My favorite color is red
+Assistant: ✨ Here are picks matching: red
+User: Provide accessories with my fav color
+Assistant: ✨ Here are picks matching: accessories
+User: Suggest color of shoes with my fav color
+User: suggest color of shoes with my fav color
+[INFO] 2025-07-17T19:45:17.894Z - 🧠 Detected intent:
+[INFO] 2025-07-17T19:45:17.895Z - 🔍 Keywords extracted:
+[INFO] 2025-07-17T19:45:51.692Z - 📥 Incoming history:
+[INFO] 2025-07-17T19:45:51.693Z - 📝 Prompt context:
+Assistant: ✨ Here are picks matching: red
+User: My favorite color is red
+Assistant: ✨ Here are picks matching: red
+User: Provide accessories with my fav color
+Assistant: ✨ Here are picks matching: accessories
+User: Suggest color of shoes with my fav color
+Assistant: "I'd love to help you find the perfect shoe color to complement your favorite color!  To give you the best suggestions, could you tell me what your favorite color is?  
+
+Once I know that, I can offer several options depending on the look you're going for. Here's how we can approach it:
+
+**Matching/Monochromatic:**
+
+* **Tone-on-tone:**  Choosing shoes in a slightly lighter or darker shade of your favorite color creates a sophisticated, elongated look.  For example, if your favorite color is navy, try a pair of royal blue or periwinkle shoes.
+* **Exact Match:**  While sometimes tricky, matching your shoes exactly to your outfit can create a bold, statement look. This works especially well with vibrant colors or for special occasions.
+
+**Complementary Colors:**
+
+* **Using the Color Wheel:**  Colors opposite each other on the color wheel complement each other beautifully. For example, if your favorite color is blue, orange shoes would create a striking contrast.
+* **Split Complementary:** Instead of the direct opposite, choose the two colors adjacent to your favorite color’s complement. This provides a less stark contrast while still being visually appealing.
+
+**Neutral Colors:**
+
+* **Classic Neutrals:**  Nude, black, white, brown, beige, and gray are your go-to options for versatility. They pair well with almost any color and allow your favorite color to be the star of the show.  Metallic shades like gold and silver can also be considered neutrals and add a touch of glam.
+* **Choosing the Right Neutral:**  The undertones of your favorite color will help determine which neutral works best.  For example, cool-toned colors pair well with black, gray, and silver, while warm-toned colors look better with brown, beige, and gold.
+
+**Analogous Colors:**
+
+* **Harmonious Hues:** Choosing shoes in a color that sits next to your favorite color on the color wheel creates a harmonious and pleasing effect.  For instance, if your favorite color is green, blue or yellow shoes would work well.
+
+**Consider the Occasion:**
+
+* **Formal:**  For formal occasions, classic neutrals or metallics are generally the best choice.
+* **Casual:**  Casual settings allow for more playful color combinations and experimenting with complementary or analogous colors.
+* **Work:**  Depending on your workplace dress code, neutrals or a toned-down version of your favorite color are typically appropriate.
+
+**Your Personal Style:**
+
+* **Bold and Edgy:** Experiment with contrasting colors and textures.
+* **Classic and Chic:** Stick to neutrals or monochromatic combinations.
+* **Romantic and Feminine:**  Pastel shades and delicate hues work well.
+
+I'm excited to hear your favorite color and help you find the perfect shoe color to match!"
+User: Ok
+User: ok
+[INFO] 2025-07-17T19:45:54.452Z - 🧠 Detected intent:
+[INFO] 2025-07-17T19:46:05.910Z - 📥 Incoming history:
+[INFO] 2025-07-17T19:46:05.911Z - 📝 Prompt context:
+Assistant: ✨ Here are picks matching: red
+User: Provide accessories with my fav color
+Assistant: ✨ Here are picks matching: accessories
+User: Suggest color of shoes with my fav color
+Assistant: "I'd love to help you find the perfect shoe color to complement your favorite color!  To give you the best suggestions, could you tell me what your favorite color is?  
+
+Once I know that, I can offer several options depending on the look you're going for. Here's how we can approach it:
+
+**Matching/Monochromatic:**
+
+* **Tone-on-tone:**  Choosing shoes in a slightly lighter or darker shade of your favorite color creates a sophisticated, elongated look.  For example, if your favorite color is navy, try a pair of royal blue or periwinkle shoes.
+* **Exact Match:**  While sometimes tricky, matching your shoes exactly to your outfit can create a bold, statement look. This works especially well with vibrant colors or for special occasions.
+
+**Complementary Colors:**
+
+* **Using the Color Wheel:**  Colors opposite each other on the color wheel complement each other beautifully. For example, if your favorite color is blue, orange shoes would create a striking contrast.
+* **Split Complementary:** Instead of the direct opposite, choose the two colors adjacent to your favorite color’s complement. This provides a less stark contrast while still being visually appealing.
+
+**Neutral Colors:**
+
+* **Classic Neutrals:**  Nude, black, white, brown, beige, and gray are your go-to options for versatility. They pair well with almost any color and allow your favorite color to be the star of the show.  Metallic shades like gold and silver can also be considered neutrals and add a touch of glam.
+* **Choosing the Right Neutral:**  The undertones of your favorite color will help determine which neutral works best.  For example, cool-toned colors pair well with black, gray, and silver, while warm-toned colors look better with brown, beige, and gold.
+
+**Analogous Colors:**
+
+* **Harmonious Hues:** Choosing shoes in a color that sits next to your favorite color on the color wheel creates a harmonious and pleasing effect.  For instance, if your favorite color is green, blue or yellow shoes would work well.
+
+**Consider the Occasion:**
+
+* **Formal:**  For formal occasions, classic neutrals or metallics are generally the best choice.
+* **Casual:**  Casual settings allow for more playful color combinations and experimenting with complementary or analogous colors.
+* **Work:**  Depending on your workplace dress code, neutrals or a toned-down version of your favorite color are typically appropriate.
+
+**Your Personal Style:**
+
+* **Bold and Edgy:** Experiment with contrasting colors and textures.
+* **Classic and Chic:** Stick to neutrals or monochromatic combinations.
+* **Romantic and Feminine:**  Pastel shades and delicate hues work well.
+
+I'm excited to hear your favorite color and help you find the perfect shoe color to match!"
+User: Ok
+Assistant: Okay!  I'm ready.  Could you please tell me your favorite color so I can offer some shoe color suggestions? 😊
+User: Is red my fav color
+User: is red my fav color
+[INFO] 2025-07-17T19:46:08.378Z - 🧠 Detected intent:
+[INFO] 2025-07-18T02:17:14.934Z - 📥 Incoming history:
+[INFO] 2025-07-18T02:17:14.935Z - 📝 Prompt context:
+Assistant: 👗 Hey there! I’m Daily Dresser…
+User: Hi
+Assistant: ❌ Server error. Try again later.
+User: Hi
+User: hi
+[INFO] 2025-07-18T02:17:17.693Z - 🧠 Detected intent:
+[INFO] 2025-07-18T02:17:31.215Z - 📥 Incoming history:
+[INFO] 2025-07-18T02:17:31.216Z - 📝 Prompt context:
+Assistant: 👗 Hey there! I’m Daily Dresser…
+User: Hi
+Assistant: ❌ Server error. Try again later.
+User: Hi
+Assistant: 👗 Hey there!  Welcome back! So sorry about that hiccup earlier.  Is there anything I can help you with today? Perhaps you're looking for an outfit for a specific occasion, or maybe you need advice on styling a particular piece?  Let me know! ✨
+User: My name is archit
+User: my name is archit
+[INFO] 2025-07-18T02:17:32.424Z - 🧠 Detected intent:
+[INFO] 2025-07-18T02:17:41.646Z - 📥 Incoming history:
+[INFO] 2025-07-18T02:17:41.648Z - 📝 Prompt context:
+Assistant: 👗 Hey there! I’m Daily Dresser…
+User: Hi
+Assistant: ❌ Server error. Try again later.
+User: Hi
+Assistant: 👗 Hey there!  Welcome back! So sorry about that hiccup earlier.  Is there anything I can help you with today? Perhaps you're looking for an outfit for a specific occasion, or maybe you need advice on styling a particular piece?  Let me know! ✨
+User: My name is archit
+Assistant: It's lovely to meet you, Archit!  So, how can I assist you today?  Are you looking for some style inspiration, outfit ideas, or perhaps advice on something specific?  Let me know what's on your mind! 😊
+User: What's is my nane
+User: what's is my nane
+[INFO] 2025-07-18T02:17:43.922Z - 🧠 Detected intent:
+[INFO] 2025-07-18T02:19:25.434Z - 📥 Incoming history:
+[INFO] 2025-07-18T02:19:25.436Z - 📝 Prompt context:
+Assistant: ❌ Server error. Try again later.
+User: Hi
+Assistant: 👗 Hey there!  Welcome back! So sorry about that hiccup earlier.  Is there anything I can help you with today? Perhaps you're looking for an outfit for a specific occasion, or maybe you need advice on styling a particular piece?  Let me know! ✨
+User: My name is archit
+Assistant: It's lovely to meet you, Archit!  So, how can I assist you today?  Are you looking for some style inspiration, outfit ideas, or perhaps advice on something specific?  Let me know what's on your mind! 😊
+User: What's is my nane
+Assistant: Your name is Archit.  Is there anything I can help you with today, Archit? 😊
+User: Red dress
+User: red dress
+[INFO] 2025-07-18T02:19:28.099Z - 🧠 Detected intent:
+[INFO] 2025-07-18T02:19:28.099Z - 🔍 Keywords extracted:
+[INFO] 2025-07-18T02:19:44.413Z - 📥 Incoming history:
+[INFO] 2025-07-18T02:19:44.414Z - 📝 Prompt context:
+Assistant: 👗 Hey there!  Welcome back! So sorry about that hiccup earlier.  Is there anything I can help you with today? Perhaps you're looking for an outfit for a specific occasion, or maybe you need advice on styling a particular piece?  Let me know! ✨
+User: My name is archit
+Assistant: It's lovely to meet you, Archit!  So, how can I assist you today?  Are you looking for some style inspiration, outfit ideas, or perhaps advice on something specific?  Let me know what's on your mind! 😊
+User: What's is my nane
+Assistant: Your name is Archit.  Is there anything I can help you with today, Archit? 😊
+User: Red dress
+Assistant: ✨ Here are picks matching: red, dress
+User: Ok
+User: ok
+[INFO] 2025-07-18T02:19:46.871Z - 🧠 Detected intent:
+[INFO] 2025-07-18T02:19:46.872Z - 🔍 Keywords extracted:
+[INFO] 2025-07-18T02:23:38.600Z - 📥 Incoming history:
+[INFO] 2025-07-18T02:23:38.628Z - 📝 Prompt context:
+Assistant: It's lovely to meet you, Archit!  So, how can I assist you today?  Are you looking for some style inspiration, outfit ideas, or perhaps advice on something specific?  Let me know what's on your mind! 😊
+User: What's is my nane
+Assistant: Your name is Archit.  Is there anything I can help you with today, Archit? 😊
+User: Red dress
+Assistant: ✨ Here are picks matching: red, dress
+User: Ok
+Assistant: "Ok, so you're looking for some styling tips! I can definitely help with that.  To give you the best advice, it would be great to know a little more about what you're looking for. But here are some general tips that can elevate anyone's style:
+
+**Foundational Tips:**
+
+* **Understand Your Body Shape:**  Knowing your body shape (apple, pear, hourglass, rectangle, inverted triangle) helps you choose clothing that flatters your figure.  There are tons of resources online that can help you determine yours.
+* **Build a Capsule Wardrobe:** A capsule wardrobe consists of versatile, high-quality basics that can be mixed and matched to create a variety of outfits. Think neutral-colored tops, a classic blazer, a great pair of jeans, and a little black dress.
+* **Invest in Quality over Quantity:**  It's better to have a few well-made pieces that will last than a closet full of cheap, trendy items.
+* **Find Your Personal Style:** Look for inspiration in magazines, online, or even people you see on the street. What styles do you gravitate towards?  Knowing your personal style will make shopping easier and more enjoyable.
+
+
+**Specific Styling Tips:**
+
+* **Accessorize:** Accessories can make or break an outfit.  A statement necklace, a scarf, or a great pair of earrings can elevate a simple look.
+* **Pay Attention to Fit:** Ill-fitting clothes can make you look sloppy, even if they're expensive. Make sure your clothes fit properly and flatter your body shape.  Tailoring can make a huge difference!
+* **Play with Color:** Don't be afraid to experiment with color!  Start with incorporating small pops of color into your outfits and see what you like.
+* **Consider the Occasion:** Dressing appropriately for the occasion is important.  A casual outfit is great for running errands, but you'll want something more formal for a wedding or job interview.
+* **Confidence is Key:** The best accessory you can wear is confidence.  Own your style and rock it!
+
+
+To help me give you more personalized advice, tell me:
+
+* **What's the occasion?** (e.g., everyday wear, work, a special event)
+* **What's your style?** (e.g., classic, bohemian, trendy, minimalist)
+* **What are you struggling with?** (e.g., finding clothes that fit, putting together outfits, accessorizing)
+
+The more information you give me, the better I can help!"
+User: Red dress
+User: red dress
+[INFO] 2025-07-18T02:23:41.491Z - 🧠 Detected intent:
+[INFO] 2025-07-18T02:23:41.494Z - 🔍 Keywords extracted:
+[INFO] 2025-07-18T02:23:45.982Z - 📥 Incoming history:
+[INFO] 2025-07-18T02:23:45.983Z - 📝 Prompt context:
+Assistant: 👗 Hey there! I’m Daily Dresser, your fashion stylist. How can I help today?
+User: Hi
+User: hi
+[INFO] 2025-07-18T02:23:48.546Z - 🧠 Detected intent:
+[INFO] 2025-07-18T02:23:58.588Z - 📥 Incoming history:
+[INFO] 2025-07-18T02:23:58.589Z - 📝 Prompt context:
+Assistant: 👗 Hey there! I’m Daily Dresser, your fashion stylist. How can I help today?
+User: Hi
+Assistant: Hi hi! 👋  So glad you're here.  Are you looking for outfit ideas, styling advice, help shopping for something specific, or just want to chat about fashion?  Let me know! 😊
+User: Red dress
+User: red dress
+[INFO] 2025-07-18T02:24:01.035Z - 🧠 Detected intent:
+[INFO] 2025-07-18T02:24:01.037Z - 🔍 Keywords extracted:
+[INFO] 2025-07-18T02:47:52.943Z - 📥 Incoming history:
+[WARN] 2025-07-18T02:47:52.948Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T02:47:52.950Z - 📝 Prompt context:
+
+User: hi
+[INFO] 2025-07-18T02:47:55.785Z - 🧠 Detected intent:
+[INFO] 2025-07-18T02:48:14.309Z - 📥 Incoming history:
+[WARN] 2025-07-18T02:48:14.311Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T02:48:14.312Z - 📝 Prompt context:
+
+User: provide me red dresses
+[INFO] 2025-07-18T02:48:16.872Z - 🧠 Detected intent:
+[INFO] 2025-07-18T02:48:16.875Z - 🔍 Keywords extracted:
+[INFO] 2025-07-18T02:51:56.080Z - 📥 Incoming history:
+[WARN] 2025-07-18T02:51:56.091Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T02:51:56.093Z - 📝 Prompt context:
+
+User: hi
+[INFO] 2025-07-18T02:51:58.750Z - 🧠 Detected intent:
+[INFO] 2025-07-18T02:52:02.098Z - 📥 Incoming history:
+[WARN] 2025-07-18T02:52:02.099Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T02:52:02.100Z - 📝 Prompt context:
+
+User: red dresses
+[INFO] 2025-07-18T02:52:03.069Z - 🧠 Detected intent:
+[INFO] 2025-07-18T02:52:03.071Z - 🔍 Keywords extracted:
+[INFO] 2025-07-18T02:54:41.676Z - 📥 Incoming history:
+[WARN] 2025-07-18T02:54:41.692Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T02:54:41.695Z - 📝 Prompt context:
+
+User: blue dress
+[INFO] 2025-07-18T02:54:44.757Z - 🧠 Detected intent:
+[INFO] 2025-07-18T02:54:44.760Z - 🔍 Keywords extracted:
+[INFO] 2025-07-18T03:00:38.071Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:00:38.083Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:00:38.084Z - 📝 Prompt context:
+
+User: hi
+[INFO] 2025-07-18T03:00:40.902Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:00:48.600Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:00:48.602Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:00:48.603Z - 📝 Prompt context:
+
+User: red dress
+[INFO] 2025-07-18T03:00:50.991Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:00:50.993Z - 🔍 Keywords extracted:
+[INFO] 2025-07-18T03:04:22.663Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:04:22.667Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:04:22.668Z - 📝 Prompt context:
+
+User: hi
+[INFO] 2025-07-18T03:04:25.033Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:06:45.381Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:06:45.387Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:06:45.389Z - 📝 Prompt context:
+
+User: hi
+[INFO] 2025-07-18T03:06:48.060Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:15:12.041Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:15:12.076Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:15:12.083Z - 📝 Prompt context:
+
+User: red dress
+[INFO] 2025-07-18T03:15:14.941Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:15:14.985Z - 🔍 Keywords extracted:
+[INFO] 2025-07-18T03:15:25.790Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:15:25.793Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:15:25.794Z - 📝 Prompt context:
+
+User: hi
+[INFO] 2025-07-18T03:15:29.341Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:15:31.996Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:15:31.998Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:15:32.000Z - 📝 Prompt context:
+
+User: red dress
+[INFO] 2025-07-18T03:15:33.738Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:15:33.741Z - 🔍 Keywords extracted:
+[INFO] 2025-07-18T03:16:51.727Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:16:51.729Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:16:51.730Z - 📝 Prompt context:
+
+User: red dress
+[INFO] 2025-07-18T03:16:54.608Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:16:54.623Z - 🔍 Keywords extracted:
+[INFO] 2025-07-18T03:20:19.413Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:20:19.424Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:20:19.425Z - 📝 Prompt context:
+
+User: red dress
+[INFO] 2025-07-18T03:20:22.765Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:20:22.767Z - 🔍 Keywords extracted:
+[INFO] 2025-07-18T03:34:55.714Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:34:55.720Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:34:55.721Z - 📝 Prompt context:
+
+User: hi
+[INFO] 2025-07-18T03:34:57.019Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:35:01.304Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:35:01.305Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:35:01.306Z - 📝 Prompt context:
+
+User: red dress i wanr
+[INFO] 2025-07-18T03:35:02.230Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:35:02.234Z - 🔍 Keywords extracted:
+[INFO] 2025-07-18T03:47:41.383Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:47:41.387Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:47:41.388Z - 📝 Prompt context:
+
+User: hey!
+[INFO] 2025-07-18T03:47:44.129Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:47:53.618Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:47:53.619Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:47:53.620Z - 📝 Prompt context:
+
+User: my name is archit
+[INFO] 2025-07-18T03:47:56.406Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:48:05.533Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:48:05.535Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:48:05.535Z - 📝 Prompt context:
+
+User: what's my name
+[INFO] 2025-07-18T03:48:08.356Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:48:38.934Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:48:38.935Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:48:38.936Z - 📝 Prompt context:
+
+User: my name is archit
+[INFO] 2025-07-18T03:48:41.323Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:48:45.766Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:48:45.767Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:48:45.768Z - 📝 Prompt context:
+
+User: what is my name?
+[INFO] 2025-07-18T03:48:46.755Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:49:03.969Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:49:03.970Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:49:03.971Z - 📝 Prompt context:
+
+User: noooo i have told you earlier
+[INFO] 2025-07-18T03:49:06.641Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:49:22.084Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:49:22.085Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:49:22.086Z - 📝 Prompt context:
+
+User: what name is archit
+[INFO] 2025-07-18T03:49:24.452Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:49:38.371Z - 📥 Incoming history:
+[WARN] 2025-07-18T03:49:38.372Z - ⚠️ Chat context is empty
+[INFO] 2025-07-18T03:49:38.373Z - 📝 Prompt context:
+
+User: what is my name
+[INFO] 2025-07-18T03:49:40.721Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:54:40.370Z - 📥 Incoming history:
+[INFO] 2025-07-18T03:54:40.373Z - 📝 Prompt context:
+User: My name is archit
+Assistant: Hi Archit, it's lovely to meet you!  How can I help you with your fashion needs today? Are you looking for something specific, or just browsing for inspiration?  Let me know!
+User: What is my name? 
+Assistant: I don't have access to that information.  As a fashion assistant, my purpose is to help you with things like outfit ideas, styling advice, and information about trends.  I can't see any of your personal details.  Is there anything fashion-related I can help you with today? 😊
+User: Noooo I have told you earlier
+Assistant: Oh, I'm so sorry!  My memory banks must be glitching.  Could you please remind me what we were discussing?  I really want to be helpful, and I hate that I've forgotten!  Let me know how I can make it up to you. 🙏
+User: What name is archit
+Assistant: Archit is a name, not a *what*.  It's a primarily masculine given name with Sanskrit origins, meaning "worshipped" or "honored."  It's a relatively common name in India. Is there anything else I can help you with regarding the name Archit, or perhaps something fashion-related?
+User: What is my name
+Assistant: I don't have access to that information! I'm focused on fashion and style, not personal details.  So tell me, what fashion questions can I answer for you today? Are you looking for outfit ideas, advice on trends, or maybe help with finding the perfect pair of shoes? 😊
+User: Hi
+User: hi
+[INFO] 2025-07-18T03:54:42.957Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:54:52.137Z - 📥 Incoming history:
+[INFO] 2025-07-18T03:54:52.139Z - 📝 Prompt context:
+User: My name is archit
+Assistant: Hi Archit, it's lovely to meet you!  How can I help you with your fashion needs today? Are you looking for something specific, or just browsing for inspiration?  Let me know!
+User: What is my name? 
+Assistant: I don't have access to that information.  As a fashion assistant, my purpose is to help you with things like outfit ideas, styling advice, and information about trends.  I can't see any of your personal details.  Is there anything fashion-related I can help you with today? 😊
+User: Noooo I have told you earlier
+Assistant: Oh, I'm so sorry!  My memory banks must be glitching.  Could you please remind me what we were discussing?  I really want to be helpful, and I hate that I've forgotten!  Let me know how I can make it up to you. 🙏
+User: What name is archit
+Assistant: Archit is a name, not a *what*.  It's a primarily masculine given name with Sanskrit origins, meaning "worshipped" or "honored."  It's a relatively common name in India. Is there anything else I can help you with regarding the name Archit, or perhaps something fashion-related?
+User: What is my name
+Assistant: I don't have access to that information! I'm focused on fashion and style, not personal details.  So tell me, what fashion questions can I answer for you today? Are you looking for outfit ideas, advice on trends, or maybe help with finding the perfect pair of shoes? 😊
+User: Hi
+Assistant: Hi there!  Nice to see you again.  Is there anything I can help you with today, fashion-wise?  Perhaps you're looking for some outfit inspiration, or maybe you have a specific item you need help styling? Let me know!
+User: My name is archit
+User: my name is archit
+[INFO] 2025-07-18T03:54:54.680Z - 🧠 Detected intent:
+[INFO] 2025-07-18T03:55:06.823Z - 📥 Incoming history:
+[INFO] 2025-07-18T03:55:06.825Z - 📝 Prompt context:
+User: My name is archit
+Assistant: Hi Archit, it's lovely to meet you!  How can I help you with your fashion needs today? Are you looking for something specific, or just browsing for inspiration?  Let me know!
+User: What is my name? 
+Assistant: I don't have access to that information.  As a fashion assistant, my purpose is to help you with things like outfit ideas, styling advice, and information about trends.  I can't see any of your personal details.  Is there anything fashion-related I can help you with today? 😊
+User: Noooo I have told you earlier
+Assistant: Oh, I'm so sorry!  My memory banks must be glitching.  Could you please remind me what we were discussing?  I really want to be helpful, and I hate that I've forgotten!  Let me know how I can make it up to you. 🙏
+User: What name is archit
+Assistant: Archit is a name, not a *what*.  It's a primarily masculine given name with Sanskrit origins, meaning "worshipped" or "honored."  It's a relatively common name in India. Is there anything else I can help you with regarding the name Archit, or perhaps something fashion-related?
+User: What is my name
+Assistant: I don't have access to that information! I'm focused on fashion and style, not personal details.  So tell me, what fashion questions can I answer for you today? Are you looking for outfit ideas, advice on trends, or maybe help with finding the perfect pair of shoes? 😊
+User: Hi
+Assistant: Hi there!  Nice to see you again.  Is there anything I can help you with today, fashion-wise?  Perhaps you're looking for some outfit inspiration, or maybe you have a specific item you need help styling? Let me know!
+User: My name is archit
+Assistant: It's nice to meet you, Archit!  I understand now.  How can I help you with your fashion needs today? 😊
+User: What is my name? 
+User: what is my name?
+[INFO] 2025-07-18T03:55:09.539Z - 🧠 Detected intent:
+[INFO] 2025-07-18T04:00:59.032Z - 📥 Incoming history:
+[INFO] 2025-07-18T04:00:59.033Z - 📝 Prompt context:
+User: Hi archit here
+User: hi archit here
+[INFO] 2025-07-18T04:01:01.880Z - 🧠 Detected intent:
+[INFO] 2025-07-18T04:01:10.601Z - 📥 Incoming history:
+[INFO] 2025-07-18T04:01:10.602Z - 📝 Prompt context:
+User: Hi archit here
+Assistant: Hi Archit!  It's great to hear from you.  What can I help you with today? Are you looking for something specific or just browsing for inspiration?  Let me know!
+User: Red dresses plz
+User: red dresses plz
+[INFO] 2025-07-18T04:01:13.188Z - 🧠 Detected intent:
+[INFO] 2025-07-18T04:01:13.191Z - 🔍 Keywords extracted:
+[INFO] 2025-07-18T04:01:23.807Z - 📥 Incoming history:
+[INFO] 2025-07-18T04:01:23.809Z - 📝 Prompt context:
+User: Hi archit here
+Assistant: Hi Archit!  It's great to hear from you.  What can I help you with today? Are you looking for something specific or just browsing for inspiration?  Let me know!
+User: Red dresses plz
+Assistant: ✨ Here are picks matching: red
+User: What is my name 
+User: what is my name
+[INFO] 2025-07-18T04:01:26.092Z - 🧠 Detected intent:
+[INFO] 2025-07-18T04:01:26.093Z - 🔍 Keywords extracted:
+[INFO] 2025-07-18T04:01:48.027Z - 📥 Incoming history:
+[INFO] 2025-07-18T04:01:48.028Z - 📝 Prompt context:
+User: Hi
+User: hi
+[INFO] 2025-07-18T04:01:50.579Z - 🧠 Detected intent:
+[INFO] 2025-07-18T04:01:55.034Z - 📥 Incoming history:
+[INFO] 2025-07-18T04:01:55.035Z - 📝 Prompt context:
+User: Hi
+Assistant: Hi there! What can I help you with today? Are you looking for something specific or just browsing for inspiration?  Let me know! 😊
+User: My name is archit 
+User: my name is archit
+[INFO] 2025-07-18T04:01:56.068Z - 🧠 Detected intent:
+[INFO] 2025-07-18T04:02:02.436Z - 📥 Incoming history:
+[INFO] 2025-07-18T04:02:02.437Z - 📝 Prompt context:
+User: Hi
+Assistant: Hi there! What can I help you with today? Are you looking for something specific or just browsing for inspiration?  Let me know! 😊
+User: My name is archit 
+Assistant: It's nice to meet you, Archit! 😊  So, what brings you in today?  Are you looking for a particular outfit, style advice, or just exploring some fashion ideas? Let me know how I can assist you.
+User: What is my name
+User: what is my name
+[INFO] 2025-07-18T04:02:04.750Z - 🧠 Detected intent:
+[INFO] 2025-07-18T04:02:32.188Z - 📥 Incoming history:
+[INFO] 2025-07-18T04:02:32.190Z - 📝 Prompt context:
+User: Hey
+User: hey
+[INFO] 2025-07-18T04:02:34.455Z - 🧠 Detected intent:
+[INFO] 2025-07-18T04:02:38.493Z - 📥 Incoming history:
+[INFO] 2025-07-18T04:02:38.495Z - 📝 Prompt context:
+User: Hey
+Assistant: Hey there! What can I help you with today?  Are you looking for something specific or just browsing for inspiration? 😊
+User: My name is archit
+User: my name is archit
+[INFO] 2025-07-18T04:02:39.442Z - 🧠 Detected intent:
+[INFO] 2025-07-18T04:02:44.769Z - 📥 Incoming history:
+[INFO] 2025-07-18T04:02:44.770Z - 📝 Prompt context:
+User: Hey
+Assistant: Hey there! What can I help you with today?  Are you looking for something specific or just browsing for inspiration? 😊
+User: My name is archit
+Assistant: It's nice to meet you, Archit! 😊 So, what brings you in today? Are you looking for an outfit for a special occasion, updating your wardrobe, or just exploring some new styles?  Let me know how I can assist you!
+User: What is my name
+User: what is my name
+[INFO] 2025-07-18T04:02:45.619Z - 🧠 Detected intent:
+[INFO] 2025-07-18T04:02:53.505Z - 📥 Incoming history:
+[INFO] 2025-07-18T04:02:53.507Z - 📝 Prompt context:
+User: Hey
+Assistant: Hey there! What can I help you with today?  Are you looking for something specific or just browsing for inspiration? 😊
+User: My name is archit
+Assistant: It's nice to meet you, Archit! 😊 So, what brings you in today? Are you looking for an outfit for a special occasion, updating your wardrobe, or just exploring some new styles?  Let me know how I can assist you!
+User: What is my name
+Assistant: Your name is Archit. 😊  Did you forget something you wanted to ask me?  I'm still here to help with any fashion questions you might have!
+User: Show me red dresses
+User: show me red dresses
+[INFO] 2025-07-18T04:02:54.581Z - 🧠 Detected intent:
+[INFO] 2025-07-18T04:02:54.583Z - 🔍 Keywords extracted:
+[INFO] 2025-07-18T04:25:26.383Z - 📥 Incoming history:
+[INFO] 2025-07-18T04:25:26.390Z - 📝 Prompt context:
+User: Hey
+User: hey
+[INFO] 2025-07-18T04:25:29.402Z - 🧠 Detected intent:
+[INFO] 2025-07-19T17:09:34.647Z - 📥 Incoming history:
+[INFO] 2025-07-19T17:09:34.651Z - 📝 Prompt context:
+User: Hi
+User: hi
+[INFO] 2025-07-19T17:09:37.432Z - 🧠 Detected intent:
+[INFO] 2025-07-19T17:11:01.186Z - 📥 Incoming history:
+[INFO] 2025-07-19T17:11:01.187Z - 📝 Prompt context:
+User: Hi
+User: hi
+[INFO] 2025-07-19T17:11:03.693Z - 🧠 Detected intent:
+[INFO] 2025-07-19T17:11:09.951Z - 📥 Incoming history:
+[INFO] 2025-07-19T17:11:09.953Z - 📝 Prompt context:
+User: Hi
+Assistant: Hi there!  Is there anything I can help you with today?  Perhaps you're looking for some outfit inspiration, advice on the latest trends, or help finding the perfect piece for a special occasion? Let me know! ✨
+User: Red dresses
+User: red dresses
+[INFO] 2025-07-19T17:11:12.954Z - 🧠 Detected intent:
+[INFO] 2025-07-19T17:11:12.956Z - 🔍 Keywords extracted:
+[INFO] 2025-07-19T17:16:06.670Z - 📥 Incoming history:
+[INFO] 2025-07-19T17:16:06.673Z - 📝 Prompt context:
+User: Red dress
+User: red dress
+[INFO] 2025-07-19T17:16:09.684Z - 🧠 Detected intent:
+[INFO] 2025-07-19T17:16:09.685Z - 🔍 Keywords extracted:
+[INFO] 2025-07-19T17:28:07.720Z - 📥 Incoming history:
+[INFO] 2025-07-19T17:28:07.724Z - 📝 Prompt context:
+User: Boy suits
+User: boy suits
+[INFO] 2025-07-19T17:28:09.657Z - 🧠 Detected intent:
+[INFO] 2025-07-19T17:28:09.659Z - 🔍 Keywords extracted:
+[INFO] 2025-07-19T17:28:34.434Z - 📥 Incoming history:
+[INFO] 2025-07-19T17:28:34.435Z - 📝 Prompt context:
+User: Boy suits
+Assistant: Let's talk boy suits!  Styling a suit for a young man depends on the occasion and his personal style. Here's a breakdown to help you find the perfect look:
+
+**1. Occasion:**
+
+* **Formal (Weddings, Proms, Galas):**  A classic, dark suit (navy, charcoal grey, or black) is best. Consider a tuxedo for the most formal events.
+* **Semi-Formal (Confirmations, Graduations, Holidays):**  A lighter color suit (light grey, blue, or even a subtle pattern like a windowpane check) works well.  You can also relax the formality by skipping the tie or opting for a bow tie.
+* **Casual (Birthday parties, Family gatherings, Smart Casual Events):**  Explore separates!  Mix a blazer with chinos or colored trousers.  Linen and cotton blends are great for warmer weather.
+
+**2. Fit is Key:**
+
+* **Jacket:** Shoulders should fit snugly without pulling.  Sleeves should end just above the wrist bone, allowing a bit of shirt cuff to show. The jacket length should cover the seat of the pants.
+* **Pants:**  The waistband should sit comfortably at the natural waist.  Consider the break (where the pant leg meets the shoe). A slight break is generally recommended for a polished look.
+* **Shirt:** A well-fitted dress shirt is crucial.  It should be comfortable and allow for movement without being baggy.
+
+**3. Styling Elements:**
+
+* **Shirt and Tie (or Bow Tie):** A crisp white or light-colored dress shirt is a classic choice.  For formal events, a solid tie or bow tie in a coordinating color is appropriate. For less formal occasions, experiment with patterns and colors.
+* **Shoes:**  Leather dress shoes are the standard. Black shoes are versatile and work with most suits. Brown shoes can complement lighter-colored suits. Loafers can work for casual suit looks.
+* **Accessories:**
+    * **Pocket Square:** Adds a touch of personality and sophistication.  Choose a color or pattern that complements the tie or shirt.
+    * **Belt:** Match the belt to the shoes.
+    * **Socks:**  Should complement the suit or shoes, not clash.  Avoid novelty socks for formal events.
+    * **Watch:** A classic watch can complete the look.
+
+
+**4. Age-Appropriate Styling:**
+
+* **Younger Boys:**  Keep it comfortable and age-appropriate.  Avoid overly formal styles or accessories.  Bow ties can be a fun and playful addition.
+* **Teenagers:** Experiment with trends while maintaining a polished look.  Consider slim-fit suits and bolder colors or patterns.
+
+
+**5.  Don't be afraid to break the rules (a little!):**
+
+* **Mix and match:** Try a patterned blazer with solid pants or vice versa.
+* **Play with textures:** Consider a tweed or linen blazer for a more casual look.
+* **Add a pop of color:** A brightly colored pocket square or tie can add personality.
+
+
+**Pro-Tip:** Take the boy with you when shopping for the suit to ensure he feels comfortable and confident in the outfit.  A tailor can make adjustments for a perfect fit.
+
+
+By considering these tips, you can help any young man look sharp and stylish in a suit!  Tell me more about the occasion and the boy's style, and I can give you even more specific advice.
+User: Black dress
+User: black dress
+[INFO] 2025-07-19T17:28:37.041Z - 🧠 Detected intent:
+[INFO] 2025-07-19T17:28:37.042Z - 🔍 Keywords extracted:
+[INFO] 2025-07-19T17:56:02.197Z - 📥 Incoming history:
+[INFO] 2025-07-19T17:56:02.204Z - 📝 Prompt context:
+User: Hi
+User: hi
+[INFO] 2025-07-19T17:56:05.043Z - 🧠 Detected intent:
+[INFO] 2025-07-19T17:59:03.062Z - 📥 Incoming history:
+[INFO] 2025-07-19T17:59:03.064Z - 📝 Prompt context:
+User: Hi
+User: hi
+[INFO] 2025-07-19T17:59:05.503Z - 🧠 Detected intent:
+[INFO] 2025-07-19T18:03:07.264Z - 📥 Incoming history:
+[INFO] 2025-07-19T18:03:07.267Z - 📝 Prompt context:
+User: Hi
+User: hi
+[INFO] 2025-07-19T18:03:09.898Z - 🧠 Detected intent:
+[INFO] 2025-07-19T18:05:14.870Z - 📥 Incoming history:
+[INFO] 2025-07-19T18:05:14.872Z - 📝 Prompt context:
+User: Hi
+User: hi
+[INFO] 2025-07-19T18:05:17.263Z - 🧠 Detected intent:
+[INFO] 2025-07-19T18:08:55.371Z - 📥 Incoming history:
+[INFO] 2025-07-19T18:08:55.373Z - 📝 Prompt context:
+User: Hi
+User: hi
+[INFO] 2025-07-19T18:08:58.074Z - 🧠 Detected intent:
+[INFO] 2025-07-19T18:08:59.081Z - 📥 Incoming history:
+[INFO] 2025-07-19T18:08:59.082Z - 📝 Prompt context:
+User: Hi
+User: How's you
+User: how's you
+[INFO] 2025-07-19T18:09:01.441Z - 🧠 Detected intent:
+[INFO] 2025-07-19T18:10:24.893Z - 📥 Incoming history:
+[INFO] 2025-07-19T18:10:24.894Z - 📝 Prompt context:
+User: Black dresses
+User: black dresses
+[INFO] 2025-07-19T18:10:27.330Z - 🧠 Detected intent:
+[INFO] 2025-07-19T18:10:27.333Z - 🔍 Keywords extracted:
+[INFO] 2025-07-19T18:10:36.396Z - 📥 Incoming history:
+[INFO] 2025-07-19T18:10:36.398Z - 📝 Prompt context:
+User: Black dresses
+Assistant: ✨ Here are picks matching: black
+User: Black girl dresses
+User: black girl dresses
+[INFO] 2025-07-19T18:10:38.849Z - 🧠 Detected intent:
+[INFO] 2025-07-19T18:10:38.851Z - 🔍 Keywords extracted:
+[INFO] 2025-07-19T18:10:50.090Z - 📥 Incoming history:
+[INFO] 2025-07-19T18:10:50.090Z - 📝 Prompt context:
+User: Black dresses
+Assistant: ✨ Here are picks matching: black
+User: Black girl dresses
+Assistant: ✨ Here are picks matching: black
+User: Black dress
+User: black dress
+[INFO] 2025-07-19T18:10:52.386Z - 🧠 Detected intent:
+[INFO] 2025-07-19T18:10:52.387Z - 🔍 Keywords extracted:
+[INFO] 2025-07-19T18:14:29.808Z - 📥 Incoming history:
+[INFO] 2025-07-19T18:14:29.813Z - 📝 Prompt context:
+User: Hii
+User: hii
+[INFO] 2025-07-19T18:14:32.253Z - 🧠 Detected intent:
+[INFO] 2025-07-19T18:14:33.656Z - 📥 Incoming history:
+[INFO] 2025-07-19T18:14:33.656Z - 📝 Prompt context:
+User: Hii
+User: How's u 
+User: how's u
+[INFO] 2025-07-19T18:14:34.810Z - 🧠 Detected intent:
+[INFO] 2025-07-19T18:18:15.109Z - 📥 Incoming history:
+[INFO] 2025-07-19T18:18:15.112Z - 📝 Prompt context:
+User: Hi
+User: hi
+[INFO] 2025-07-19T18:18:17.424Z - 🧠 Detected intent:

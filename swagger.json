@@ -1,0 +1,115 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "ClothesUploader + Chatbot API",
+    "version": "1.0.0",
+    "description": "API for clothing upload, AI prediction, and Gemini-powered chatbot recommendations."
+  },
+  "servers": [
+    {
+      "url": "http://localhost:5000",
+      "description": "Local development server"
+    }
+  ],
+  "paths": {
+    "/upload-clothes": {
+      "post": {
+        "summary": "Upload clothes with image analysis and prediction",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "images": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                },
+                "required": ["images"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Clothing uploaded and predicted successfully"
+          },
+          "500": {
+            "description": "Prediction or upload failed"
+          }
+        }
+      }
+    },
+    "/clothes": {
+      "get": {
+        "summary": "Retrieve all uploaded clothes",
+        "responses": {
+          "200": {
+            "description": "List of uploaded clothing items"
+          },
+          "500": {
+            "description": "Failed to fetch clothes"
+          }
+        }
+      }
+    },
+    "/clothes/{id}": {
+      "delete": {
+        "summary": "Delete a specific clothing item by ID",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Clothing item deleted"
+          },
+          "404": {
+            "description": "Clothing item not found"
+          }
+        }
+      }
+    },
+    "/api/recommend": {
+      "post": {
+        "summary": "Get chatbot-based clothing recommendations using Gemini AI",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "message": {
+                    "type": "string",
+                    "example": "Show me winter jackets for women"
+                  }
+                },
+                "required": ["message"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Recommended clothes or AI message"
+          },
+          "500": {
+            "description": "Recommendation failed"
+          }
+        }
+      }
+    }
+  }
+}
