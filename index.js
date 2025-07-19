@@ -130,10 +130,16 @@ Style: ...`;
 // ✅ Upload Route
 app.post('/upload-clothes', upload.array('images', 10), async (req, res) => {
   try {
-    const ip = req.hostname === 'localhost' ? 'localhost' : req.hostname;
-    const files = req.files.map((file) => ({
-      filename: file.filename,
-      path: `https://${ip}/uploads/${file.filename}`,
+   const serverBaseUrl =
+  process.env.NODE_ENV === 'production'
+    ? 'https://mergedfolder.onrender.com'
+    : 'http://localhost:5000';
+
+const files = req.files.map((file) => ({
+  filename: file.filename,
+  path: `${serverBaseUrl}/uploads/${file.filename}`,
+}));
+
     }));
 
     const predictions = await Promise.all(
